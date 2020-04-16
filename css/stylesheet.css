@@ -1,0 +1,32 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu {
+	width: 15%;
+}
+.portfolio {
+	width: 85%;
+}
+.item {
+	width: 100%;
+	clear: both;
+}
+.item img {
+	float: left
+}
+.item span {
+	display: table-cell;
+	vertical-align: middle;
+	height: 240px;
+}
+
+.kitten-image {
+
+	border: dashed #fa8072;
+	cursor: grab;
+	box-shadow: 10px 5px 5px gray;
+}
